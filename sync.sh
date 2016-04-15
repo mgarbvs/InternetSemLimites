@@ -1,5 +1,5 @@
 #!/bin/bash -x
-cd /home/automacao/InternetSemLimites && (
+cd /home/$USER/InternetSemLimites && (
 	# Reset de segurança
 	git reset --hard HEAD; git clean -f -d; /usr/bin/git pull origin HEAD
 
